@@ -5,9 +5,9 @@
     <title></title>
   </head>
   <body>
-    <% @article.each do |article| %>
-      <h1><%=article.title%></h1>
-      <h2><%=article.content%></h2>
+    <% @articles.each do |a| %>
+      <h1><%=a.title%></h1>
+      <h2><%=a.content%></h2>
     <% end %>
   </body>
 </html>
